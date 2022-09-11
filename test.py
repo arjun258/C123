@@ -22,7 +22,7 @@ for cls in classes:
   
   idxs=np.random.choice(idxs,samples_per_class,replace=False)
   
-  i=0
+  i=3
   for idx in idxs:
     plt_idx=i*nclasses+idx_cls+1
     p=plt.subplot(samples_per_class,nclasses,plt_idx);
